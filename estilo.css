@@ -5,3 +5,25 @@ background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%,
 color:aliceblue;
 font-size: 48px;
 }
+
+ /* Estilos para a tela de introdução */
+  #intro {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    z-index: 9999;
+  }
+
+  /* Esconde o conteúdo principal inicialmente */
+  #conteudo {
+    display: none;
+    padding: 20px;
+  }
