@@ -6,7 +6,7 @@ color:aliceblue;
 font-size: 48px;
 }
 
- /* Estilos para a tela de introdução */
+
   #intro {
     position: fixed;
     top: 0;
@@ -22,7 +22,6 @@ font-size: 48px;
     z-index: 9999;
   }
 
-  /* Esconde o conteúdo principal inicialmente */
   #conteudo {
     display: none;
     padding: 20px;
